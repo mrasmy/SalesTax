@@ -10,5 +10,5 @@ npm install
 npm run lint
 npm run spec
 ````
-
+![alt text](https://raw.githubusercontent.com/mrasmy/SalesTax/master/Collaboration_Diagram.jpg)
 ___
