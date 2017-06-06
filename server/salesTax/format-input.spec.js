@@ -60,6 +60,10 @@ describe.only('Test Format Input', () =>{
     formatSpaceItem(spaceItem).should.be.deepEqual(spaceItemObject);
   });
 
+  it('Test Invalid Space Pattern', () => {
+    (function(){formatSpaceItem(' book 12.49');}).should.be.throw('Wrong Space Item Format');
+  });
+
   it('Pass Empty value to formatSpaceItem', () => {
     (function(){formatSpaceItem('');}).should.be.throw('Item is empty');
   });
@@ -70,6 +74,11 @@ describe.only('Test Format Input', () =>{
     formatCommaItem(commaItem).should.be.deepEqual(commaItemObject);
   });
 
+  it('Test Invalid Comma Pattern', () => {
+    (function(){formatCommaItem('1 bottle of perfume27.99, imported');}).should.be.throw('Wrong comma Item Format');
+  });
+
+
   it('Pass Empty value to formatCommaItem', () => {
     (function(){formatCommaItem('');}).should.be.throw('Item is empty');
   });
@@ -78,6 +87,10 @@ describe.only('Test Format Input', () =>{
     let pipeItem = 'Imported | 1 bottle of perfume | 47.50';
     let pipeItemObject = new item('bottle of perfume ', ' 47.50', 'Imported ', '1');
     formatPipeItem(pipeItem).should.be.deepEqual(pipeItemObject);
+  });
+
+  it('Test Invalid Pipe Pattern', () => {
+    (function(){formatPipeItem('Imported  1 bottle of perfume | 47.50');}).should.be.throw('Wrong Pipe Item Format');
   });
 
   it('Pass Empty value to formatPipeItem', () => {
