@@ -1,6 +1,6 @@
 # Sales Taxes Exercise
 
-## Change your node version, clone the repo, install and run the tests:
+## Prepare the Environment:
 
 ````
 npm use v7.5.0
@@ -10,5 +10,9 @@ npm install
 npm run lint
 npm run spec
 ````
+___
+
+## collaboration Diagram:
+
 ![alt text](https://raw.githubusercontent.com/mrasmy/SalesTax/master/Collaboration_Diagram.jpg)
 ___
