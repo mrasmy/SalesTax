@@ -1,5 +1,5 @@
 {
-  "name": "javascript-topic-trials",
+  "name": "SalesTax",
   "version": "1.0.0",
   "description": "scaffold, docs, slides and resources for the Bluemix Garage Developer Bootcamp",
   "main": "index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wpannell/javascript-topic-trials.git"
+    "url": "git+https://github.com/mrasmy/SalesTax.git"
   },
   "keywords": [
     "node"
@@ -23,9 +23,9 @@
   "author": "Wil Pannell",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wpannell/javascript-topic-trials/issues"
+    "url": "https://github.com/mrasmy/SalesTax.git"
   },
-  "homepage": "https://github.com/wpannell/javascript-topic-trials#readme",
+  "homepage": "https://github.com/mrasmy/SalesTax.git#readme",
   "engines": {
     "node": "7.2.0"
   },
