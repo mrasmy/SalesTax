@@ -1,6 +1,6 @@
 # Sales Taxes Exercise
 
-####Change your node version, clone the repo, install and run the tests:
+###Change your node version, clone the repo, install and run the tests:
 
 ````
 nvm use v7.5.0
