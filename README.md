@@ -12,7 +12,16 @@ npm run spec
 ````
 ___
 
+## Run the application on local machine, please run the follwing commands in the application root directory:
+```
+$ npm install --save-dev babel-cli
+$ npm install --save-dev babel-preset-es2015 babel-preset-stage-2
+$ npm start
+___
+
 ## collaboration Diagram:
 
 ![alt text](https://raw.githubusercontent.com/mrasmy/SalesTax/master/Collaboration_Diagram.jpg)
 ___
+
+
