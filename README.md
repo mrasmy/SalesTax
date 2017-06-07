@@ -20,6 +20,13 @@ $ npm start
 ```
 ___
 
+## Deploy the application:
+```
+$ npm run deploy
+```
+___
+
+
 ## collaboration Diagram:
 
 ![alt text](https://raw.githubusercontent.com/mrasmy/SalesTax/master/Collaboration_Diagram.jpg)
