@@ -17,6 +17,7 @@ ___
 $ npm install --save-dev babel-cli
 $ npm install --save-dev babel-preset-es2015 babel-preset-stage-2
 $ npm start
+```
 ___
 
 ## collaboration Diagram:
